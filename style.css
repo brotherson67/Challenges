@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+header .legend{
+    color: brown;
+}
+
+header .link {
+    flex-direction: column;
+}
