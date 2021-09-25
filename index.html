@@ -11,31 +11,31 @@
         <!-- create the 2 main children in the header
         create the page link children -->
         <header>
-            <div class="legend">
+            <!-- main page -->
+            <div>
                 <h1>Brotherson</h1>
             </div>
-            <div class="links">
+            <!-- Navigation -->
+            <nav class="links">
 
                 <!-- Inside of each of these children will be a hyperlink to a different section -->
-                
-                <!-- turn each into a list itemj -->
-                <div class="link">
-                    <h2>About Me</h2>
-                </div>
+                <!-- turn each into a list item -->
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href='#work'>Work</a>
+                    </li>
+                    <li>
+                        <a href='#contact-me'>Contact Me</a>
+                    </li>
+                    <li>
+                        <a href='#resume'>Resume</a>
+                    </li>
+                </ul>
 
-                <div class="link">
-                    <h2>Work</H2>
-                </div>
-
-                <div class="link">
-                    <h2>Let's Get in Contact</h2>
-                </div>
-
-                <div class="link">
-                    <h2>Resume</h2>
-                </div>
-
-            </div>
+            </nav>
         </header>
         
         <hero>
@@ -53,7 +53,7 @@
         <!-- create a second div for the paragraph elements -->
         <!--    within this parent div create two children with a paragraph each -->
         <section>
-            <div class='header'>
+            <div id='about-me'>
                 <h3>About Me</h3>
             </div>
 
@@ -72,7 +72,7 @@
 
         <!-- Websites that I have or will work on -->
         <!-- create a parent div that will contain the four child divs -->
-        <div class="projects">
+        <div id='work'>
             <div class="persProj">
                 <h3>RunBuddy</h3>
             </div>
