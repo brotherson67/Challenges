@@ -126,7 +126,7 @@ header nav ul li a {
      width: 100%;
  }
 
- .workSection .workTitle {
+.workSection .workTitle {
      background-color: rebeccapurple;
      display: flex;
      margin:3.5%;
@@ -136,13 +136,14 @@ header nav ul li a {
      font-size: 36px;
  }
 
- .workSection .work {
+.work {
      display: flex;
      width: 70%;
      justify-content: space-around;
-     align-items: space-around;
+     flex-wrap: wrap;
  }
 
- .work {
-     display: flex;
+ .persProj {
+     width: 35%;
  }
+
