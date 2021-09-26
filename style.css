@@ -58,6 +58,8 @@ header nav ul li a {
     padding-right: 25px;
  }
 
+/* Start of hero styling */
+
  .hero {
      background-image: url(../UofUWeek2/assets/images/newSnow.jpg);
      background-size: cover;
@@ -89,4 +91,31 @@ header nav ul li a {
  .hero .suprise h2 a{
     color: #d69d66;
     text-decoration: none;
+ }
+
+ /* Start of about me styling */
+ .aboutMe {
+     background-color: #e0e2ee;
+     display: flex;
+     justify-content: flex-start;
+     align-content: space-around;    
+     border: #3d6d79; 
+ }
+
+ .aboutMe .header {
+     display: flex;
+     width: 30%;
+     margin:3.5%;
+     text-align: right;
+     color: #d69d66;
+     flex-wrap: wrap;
+     font-size: 36px;
+ }
+
+ .aboutMe .info {
+     display: flex;
+     flex-wrap: wrap;
+     font-size: 14px;
+     padding: 20px;
+     color: #3d6d79;
  }
