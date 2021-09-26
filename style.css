@@ -73,6 +73,17 @@ header nav ul li a {
      font-size: large;
      font-weight: bold;
      margin-top: 30VW;
+     margin-right: 1vw;
+     margin-bottom: 1vw;
+     border-radius: 10px;
+ }
+
+.hero .suprise:hover{
+    background-color: #e0e2ee;
+}
+
+ .hero .suprise h2 {
+     padding:15px 25px;
  }
 
  .hero .suprise h2 a{
