@@ -127,8 +127,8 @@ header nav ul li a {
  }
 
 .workSection .workTitle {
-     background-color: rebeccapurple;
      display: flex;
+     width: 30%;
      margin:3.5%;
      text-align: right;
      color: #d69d66;
@@ -145,5 +145,43 @@ header nav ul li a {
 
  .persProj {
      width: 35%;
+     flex-grow: 1 50%;
+     margin: 15px;
  }
 
+ .persProj a {
+     color: red;
+     text-decoration: none;
+ }
+
+ /* beginning of runbudy styling */
+ #runbuddy {
+     background-color: #d69d66;
+ }
+
+ #runbuddy h3 {
+     display: flex;
+     justify-content: flex-start;
+     align-content: flex-end;
+ }
+
+ #runbuddy h3 a {
+     display: flex;
+     color: #ffffff;
+     text-decoration: none;
+ }
+
+/* begin Resume styling */
+#resume {
+    background-color: #3d6d79;
+}
+
+/* begin Loanpro styling */
+#loanpro {
+    background-color: #3d6d79;
+}
+
+/* begin construction Styling */
+#construction {
+    background-color: #d69d66;
+}
