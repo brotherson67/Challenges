@@ -1,39 +1,81 @@
+/* COLORS TO USE
+    BLUE GREY: #3d6d79
+    DULL ORANGE: #d69d66
+    PURPLE GREY: #e0e2ee
+    WHITE: #ffffff */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: #e0e2ee;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     display: flex;
-    background-color: blue;
+    background-color: #d69d66;
     justify-content: space-between;
 }
 
-header a {
-    color: gray;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px 15px;
+header div {
+    background-color: #ffffff;
 }
 
-header h1{
-    color: brown;
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 10px;
+    color: #3d6d79;
 }
+
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-}
+    align-content: center;
+    margin: 20px;
+
+} 
+
 header nav ul li {
     display: inline;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
  
+header nav ul li a {
+    color: #3d6d79;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 25px;
+ }
+
+ .hero {
+     background-image: url(../UofUWeek2/assets/images/newSnow.jpg);
+     background-size: cover;
+     background-position: center;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: flex-end;
+     align-content: flex-end;
+ }
+
+ .hero .suprise {
+     background-color: #3d6d79;
+     font-size: large;
+     font-weight: bold;
+     margin-top: 30VW;
+ }
+
+ .hero .suprise h2 a{
+    color: #d69d66;
+    text-decoration: none;
+ }
