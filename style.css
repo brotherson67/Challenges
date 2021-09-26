@@ -99,7 +99,6 @@ header nav ul li a {
      display: flex;
      justify-content: flex-start;
      align-content: space-around;    
-     border: #3d6d79; 
  }
 
  .aboutMe .header {
@@ -118,4 +117,32 @@ header nav ul li a {
      font-size: 14px;
      padding: 20px;
      color: #3d6d79;
+ }
+
+ /* begin my work section */
+ .workSection {
+     background-color: #e0e2ee;
+     display: flex;
+     width: 100%;
+ }
+
+ .workSection .workTitle {
+     background-color: rebeccapurple;
+     display: flex;
+     margin:3.5%;
+     text-align: right;
+     color: #d69d66;
+     flex-wrap: wrap;
+     font-size: 36px;
+ }
+
+ .workSection .work {
+     display: flex;
+     width: 70%;
+     justify-content: space-around;
+     align-items: space-around;
+ }
+
+ .work {
+     display: flex;
  }
