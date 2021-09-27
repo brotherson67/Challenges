@@ -205,8 +205,20 @@ footer {
 
 .footHeader {
     background-color: red;
+    font-size: 36px;
+    text-align: right;
+    display: flex;
+    align-items: center;
 }
 
 .footlist{
+    display: flex;
+    align-items: center;
     background-color: blue;
+}
+
+.footlist ul li {
+    display: inline;
+
+
 }
