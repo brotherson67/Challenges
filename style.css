@@ -213,12 +213,18 @@ footer {
 
 .footlist{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: blue;
 }
 
-.footlist ul li {
+.footlist ul{
     display: inline;
+}
 
+.footlist ul li {
+    display: flex;
+    font-size: 24px;
+    padding: 20px;
 
 }
