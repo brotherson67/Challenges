@@ -203,9 +203,9 @@ footer {
     justify-content: space-between;
 }
 
-.footHeader {
-    background-color: red;
+.contact-me {
     font-size: 36px;
+    font-weight: bold;
     text-align: right;
     display: flex;
     align-items: center;
@@ -213,18 +213,14 @@ footer {
 
 .footlist{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: blue;
-}
-
-.footlist ul{
-    display: inline;
 }
 
 .footlist ul li {
-    display: flex;
+    display: inline;
     font-size: 24px;
+    font-weight: bold;
     padding: 20px;
-
+    margin-right: 40px
 }
