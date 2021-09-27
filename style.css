@@ -126,6 +126,22 @@ header nav ul li a {
      background-color: #e0e2ee;
      display: flex;
      width: 100%;
+     
+ }
+
+ .firstWork {
+    width: 97%;
+    background-image: url(./assets/images/Screenshot\ \(83\).png);
+    background-color: #3d6d79;
+    margin-top: 3%;
+    padding: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .firstWork h2 {
+    color: #ffffff;
  }
 
 .emptyDiv {
@@ -145,10 +161,10 @@ header nav ul li a {
  .persProj {
      width: 40%;
      display: flex;
-     margin-right: 5%;
+     margin-right: 3%;
      flex-grow: 1;
      padding-top: 5%;
-     margin-top: 5%;
+     margin-top: 3%;
      padding-bottom:5%;
      border-radius: 10px;
      color: #3d6d79;
