@@ -151,12 +151,13 @@ header nav ul li a {
      margin-top: 5%;
      padding-bottom:5%;
      border-radius: 10px;
+     color: #3d6d79;
  }
 
  .persProj a {
      display: flex;
      flex-grow: 1;
-     color: red;
+     color: #ffffff;
      text-decoration: none;
  }
 
@@ -169,6 +170,7 @@ header nav ul li a {
      display: flex;
      justify-content: flex-start;
      align-content: flex-end;
+     
  }
 
  #runbuddy h3 a {
@@ -190,4 +192,5 @@ header nav ul li a {
 /* begin construction Styling */
 #construction {
     background-color: #3d6d79;
+    color: #ffffff;
 }
