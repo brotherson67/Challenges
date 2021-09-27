@@ -194,3 +194,19 @@ header nav ul li a {
     background-color: #3d6d79;
     color: #ffffff;
 }
+
+
+/* begin footer styling */
+footer {
+    background-color: #e0e2ee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footHeader {
+    background-color: red;
+}
+
+.footlist{
+    background-color: blue;
+}
