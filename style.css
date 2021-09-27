@@ -138,10 +138,12 @@ header nav ul li a {
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
+    text-decoration: none;
  }
 
  .firstWork h2 {
     color: #ffffff;
+
  }
 
 .emptyDiv {
@@ -178,18 +180,19 @@ header nav ul li a {
  }
 
  /* beginning of runbudy styling */
- #runbuddy {
+ #memes {
+     background-image: url(./assets/images/newSnow.jpg);
      background-color: #3d6d79;
  }
 
- #runbuddy h3 {
+ #memes h3 {
      display: flex;
      justify-content: flex-start;
      align-content: flex-end;
      
  }
 
- #runbuddy h3 a {
+ #memes h3 a {
      display: flex;
      color: #ffffff;
      text-decoration: none;
@@ -197,11 +200,13 @@ header nav ul li a {
 
 /* begin Resume styling */
 #resume {
+    background-image: url(./assets/images/Screenshot\ \(84\).png);
     background-color: #3d6d79;
 }
 
 /* begin Loanpro styling */
 #loanpro {
+    background-image: url(./assets/images/;
     background-color: #3d6d79;
 }
 
