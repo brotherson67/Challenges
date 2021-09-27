@@ -95,7 +95,7 @@ header nav ul li a {
 
  /* Start of about me styling */
  .aboutMe {
-     background-color: #e0e2ee;
+     background-color: #3d6d79;
      display: flex;
      justify-content: flex-start;
      align-content: space-around;    
@@ -116,10 +116,12 @@ header nav ul li a {
      flex-wrap: wrap;
      font-size: 14px;
      padding: 20px;
-     color: #3d6d79;
+     color: #d69d66;
  }
 
  /* begin my work section */
+ /* change the left title to have a smaller margin */
+ /* change the work icons to have the same sized icon */
  .workSection {
      background-color: #e0e2ee;
      display: flex;
@@ -135,21 +137,25 @@ header nav ul li a {
      flex-wrap: wrap;
      font-size: 36px;
  }
+ 
 
 .work {
      display: flex;
-     width: 70%;
-     justify-content: space-around;
+     justify-content: space-between;
      flex-wrap: wrap;
+     background-color: #d69d66;
  }
 
  .persProj {
      width: 35%;
-     flex-grow: 1 50%;
+     display: flex;
+     flex-grow: 1;
      margin: 15px;
  }
 
  .persProj a {
+     display: flex;
+     flex-grow: 1;
      color: red;
      text-decoration: none;
  }
