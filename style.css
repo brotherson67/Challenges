@@ -29,7 +29,7 @@ header div {
 header h1 {
     font-size: 48px;
     font-weight: bold;
-    margin: 10px 10px;
+    padding: 10px 10px;
     color: #3d6d79;
 }
 
@@ -101,10 +101,10 @@ header nav ul li a {
      align-content: space-around;    
  }
 
- .aboutMe .header {
+ .header {
      display: flex;
-     width: 30%;
-     margin:3.5%;
+     padding:3.5%;
+     margin-left: 13%;
      text-align: right;
      color: #d69d66;
      flex-wrap: wrap;
@@ -115,7 +115,7 @@ header nav ul li a {
      display: flex;
      flex-wrap: wrap;
      font-size: 14px;
-     padding: 20px;
+     padding: 20px 20px 20px 0px;
      color: #d69d66;
  }
 
@@ -128,20 +128,16 @@ header nav ul li a {
      width: 100%;
  }
 
-.workSection .workTitle {
-     display: flex;
-     width: 30%;
-     margin:3.5%;
-     text-align: right;
-     color: #d69d66;
-     flex-wrap: wrap;
-     font-size: 36px;
- }
+.emptyDiv {
+    background-color: #d69d66;
+    width: 30%;
+ }  
  
 
 .work {
      display: flex;
      justify-content: space-between;
+     width: 70%;
      flex-wrap: wrap;
      background-color: #d69d66;
  }
