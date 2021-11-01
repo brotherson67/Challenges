@@ -131,7 +131,7 @@ header nav ul li a {
 
  .firstWork {
     width: 97%;
-    background-image: url(./assets/images/Screenshot\ \(83\).png);
+    background-image: url(./assets/images/WeatherTrailsScreenshot.png);
     background-color: #3d6d79;
     margin-top: 3%;
     padding: 10%;
@@ -204,10 +204,18 @@ header nav ul li a {
     background-color: #3d6d79;
 }
 
+#resume h3 a {
+    color: #3d6d79; 
+}
+
 /* begin Loanpro styling */
 #loanpro {
-    background-image: url(./assets/images/;
+    background-image: url(./assets/images/loanProLogo.png);
     background-color: #3d6d79;
+}
+
+#loanpro h3 a {
+    color:#3d6d79;
 }
 
 /* begin construction Styling */

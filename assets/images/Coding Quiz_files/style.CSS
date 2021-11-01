@@ -1,0 +1,69 @@
+/* colors
+    gunmetal grey - #8D918D
+     */
+
+body {
+    background-color: #8D918D;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.navigation a {
+    font-size: larger;
+    text-decoration: none;
+    color: blue;
+    float: left;
+    margin: 20px;
+}
+
+.navigation h1 {
+    float: right;
+
+}
+
+.header {
+    float: none;
+    text-align: center;
+}
+
+.header h2 {
+    font-size:xx-large;
+
+}
+
+.header p {
+    font-size: large;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+
+}
+
+.btn button {
+    font-size: xx-large;
+    width: 25%;
+    border-radius: 10px;
+    background-color: red;
+}
+
+
+
+form .questions {
+    display: none;
+}
+
+form .questions button {
+    font-size: xx-large;
+    width: 25%;
+    border-radius: 10px;
+    background-color: red;
+}
