@@ -1,164 +1,128 @@
 <!DOCTYPE html=en>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" type='text/css' href="./style.css" />
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
 
-    </head>
+  <body>
+    <header>
+      <!-- main page -->
+      <div>
+        <h1>Brotherson</h1>
+      </div>
+      <!-- Navigation -->
+      <nav class="links">
+        <!-- Inside of each of these nodes will be a hyperlink to a different section -->
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <body>
-        <!-- create the 2 main children in the header
-        create the page link children -->
-        <header>
-            <!-- main page -->
-            <div>
-                <h1>Brotherson</h1>
-            </div>
-            <!-- Navigation -->
-            <nav class="links">
-                <!-- Inside of each of these children will be a hyperlink to a different section -->
-                <!-- turn each into a list item -->
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href='#work'>Work</a>
-                    </li>
-                    <li>
-                        <a href='#contact-me'>Contact Me</a>
-                    </li>
-                    <li>
-                        <a href='#resume'>Resume</a>
-                    </li>
-                </ul>
+    <section class="hero">
+      <div class="suprise">
+        <h2>
+          <a href="linkedin.com/mitch-brotherson" alt="contact-me">
+            Click here to get in contact with me!!
+          </a>
+        </h2>
+      </div>
+    </section>
 
-            </nav>
-        </header>
-        
-        <section class="hero">
-            <!-- Add the hero image, source and alt tag -->
-            <!-- add div containing subtitle
-                    it may be cool to have a pseudoclass, like hover or something taht rick ashlys someone -->
-            
-            <div class="suprise">
-                <h2>
-                    <a href="https://youtu.be/dQw4w9WgXcQ" alt='suprise'> Click here for a Suprise! </a>
-                </h2>
-            </div>
-            </section>
+    <section class="aboutMe">
+      <div id="about-me" class="header">
+        <h3>About Me</h3>
+      </div>
 
-<!-- There will probably need to be two divs here. One on the left side that is just white space, and one on the right which contains the child divs containing the content -->
-
-
-        <!-- This will be the 'about me section' -->
-        <!-- create one div for a large header -->
-        <!-- create a second div for the paragraph elements -->
-        <!--    within this parent div create two children with a paragraph each -->
-        <section class="aboutMe">
-            <div id='about-me' class="header">
-                <h3>About Me</h3>
-            </div>
-
-            <!-- this is for the two paragraph elements -->
-            <div class="info">
-                <div>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.t </p>
-                </div>
-
-                <div>
-                    <br/>
-                    <p>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>'
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Websites that I have or will work on -->
-        <!-- create a parent div that will contain the four child divs -->
-        <div class="workSection">
-
-            <div class='emptyDiv'>
-            </div>
-
-            <div id='work' class='work'>
-                
-                <a href="https://plaindemon.github.io/weather-trails/" class="firstWork">
-                    <div>
-                        <h2>My First App</h2>
-                    </div>
-                </a>
- 
-                <div class="persProj" id='memes'>
-                    <h3>
-                        <a href="https://youtu.be/1JOS0GHFmBk">spicy memes till I can redo this later</a>
-                    </h3>
-                </div>
-
-                <div id="resume" class="persProj">
-                    <h3>
-                        <a href="https://docs.google.com/document/d/1poMMS6uAvrV1Z3YcfxgnAhOf6GH8s9M0/edit?usp=sharing&ouid=101744646653713081191&rtpof=true&sd=true">Resume</a>
-                    </h3>
-                </div>
-
-                <div class="persProj" id="loanpro">
-                    <h3>
-                        <a href="https://loanpro.io/">LoanPro.io</a>
-                    </h3>
-                </div>
-
-                <div class="persProj" id='construction'>
-                    <h3> 🚧Section under construction🚧</h3>
-                </div>
-            </div>
+      <div class="info">
+        <div>
+          <p>Add Professional information here</p>
         </div>
 
-<!-- create "contact me div" -->
-<!-- create "contact info div" -->
-<!-- make them flexbox and put space between -->
-<!-- create a list for the objects  -->
-<!-- make links in objects -->
-<!-- place objects -->
-<!-- style left div -->
-<!-- style right div -->
-        <footer>
-            <div class="contact-me" id="contact-me">
-                <!-- contact me -->
-                <h3>
-                    Contact Me
-                </h3>
-            </div>
+        <div>
+          <br />
+          <p>
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+          </p>
+          '
+        </div>
+      </div>
+    </section>
 
-            <div class="footList">
-                <!-- contact info -->
-                <ul>
-                    <li><tel>(801) 234-0508</tel></li>
-                    <li>Mitchell.Brotherson@loanpro.io</li>
-                    <li> <a href="https://github.com/brotherson67">GitHub</a></li>
-                    <li> <a href="www.linkedin.com/in/mitchell-brotherson-641139184">Linkdin</a></li>
-                    <li> <a href="https://open.spotify.com/">Spotify</a></li>
-                </ul>
-            </div>
-        </footer>
+    <div class="workSection">
+      <div class="emptyDiv"></div>
+      <!-- create carousel here to display different projects and their UIs-->
+      <div id="work" class="work">
+        <a
+          href="https://plaindemon.github.io/weather-trails/"
+          class="firstWork"
+        >
+          <div>
+            <h2>My First App</h2>
+          </div>
+        </a>
 
-    </body>
+        <div class="persProj" id="proj-1">
+          <h3>
+            <a href="github.com">Add Budget-tracker Project</a>
+          </h3>
+        </div>
+
+        <div id="resume" class="persProj">
+          <h3>
+            <a
+              href="https://docs.google.com/document/d/1poMMS6uAvrV1Z3YcfxgnAhOf6GH8s9M0/edit?usp=sharing&ouid=101744646653713081191&rtpof=true&sd=true"
+              >Resume</a
+            >
+          </h3>
+        </div>
+
+        <div class="persProj" id="proj-1">
+          <h3>
+            <a href="https://loanpro.io/">LoanPro.io</a>
+          </h3>
+        </div>
+
+        <div class="persProj" id="construction">
+          <h3>🚧Section under construction🚧</h3>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contact-me" id="contact-me">
+        <h3>Contact Me</h3>
+      </div>
+
+      <div class="footList">
+        <!-- Footer -->
+        <ul>
+          <li><tel>(801) 234-0508</tel></li>
+          <li>Mitchell.Brotherson@loanpro.io</li>
+          <li><a href="https://github.com/brotherson67">GitHub</a></li>
+          <li>
+            <a href="www.linkedin.com/in/mitchell-brotherson-641139184"
+              >Linkdin</a
+            >
+          </li>
+          <li><a href="https://open.spotify.com/">Spotify</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
-
-<!-- 
-TO DO FROM HERE
-    Change footer
-        correct 'contact me' h3
-        arrange list to be more centered 
-        change font color
-        add links to list items
-        add border underline
- -->
-
-
- <!-- What I should have done is put two vertical divs
-        one that has all the conent and one thaet is wahite space with the headers -->
-
-<!-- Add phot of me in the hero -->
-    <!-- create section for RunBuddy with picture linked to subtitle -->
-    <!--  make a fulsize runbuddy div-->
