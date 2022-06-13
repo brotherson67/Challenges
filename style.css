@@ -5,256 +5,248 @@
     WHITE: #ffffff */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #e0e2ee;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0e2ee;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    display: flex;
-    background-color: #d69d66;
-    justify-content: space-between;
+  display: flex;
+  background-color: #d69d66;
+  justify-content: space-between;
 }
 
 header div {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 header h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding: 10px 10px;
-    color: #3d6d79;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 10px 10px;
+  color: #3d6d79;
 }
-
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-    margin: 20px;
-
-} 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
+}
 
 header nav ul li {
-    display: inline;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: inline;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
- 
+
 header nav ul li a {
-    color: #3d6d79;
-    font-size: 26px;
-    font-weight: bold;
-    text-decoration: none;
-    padding-right: 25px;
- }
+  color: #3d6d79;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 25px;
+}
 
 /* Start of hero styling */
 
- .hero {
-     background-image: url(../UofUWeek2/assets/images/IMG_0941.JPEG);
-     background-size: cover;
-     background-position: center;
-     display:flex;
-     flex-wrap: wrap;
-     justify-content: flex-end;
-     align-content: flex-end;
- }
-
- .hero .suprise {
-     background-color: #3d6d79;
-     font-size: large;
-     font-weight: bold;
-     margin-top: 30VW;
-     margin-right: 1vw;
-     margin-bottom: 1vw;
-     border-radius: 10px;
- }
-
-.hero .suprise:hover{
-    background-color: #e0e2ee;
+.hero {
+  background-image: url(./assets/images/IMG_0941.JPEG);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
 }
 
- .hero .suprise h2 {
-     padding:15px 25px;
- }
+.hero .suprise {
+  background-color: #3d6d79;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 30vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  border-radius: 10px;
+}
 
- .hero .suprise h2 a{
-    color: #d69d66;
-    text-decoration: none;
- }
+.hero .suprise:hover {
+  background-color: #e0e2ee;
+}
 
- /* Start of about me styling */
- .aboutMe {
-     background-color: #3d6d79;
-     display: flex;
-     justify-content: flex-start;
-     align-content: space-around;    
- }
+.hero .suprise h2 {
+  padding: 15px 25px;
+}
 
- .header {
-     display: flex;
-     padding:3.5%;
-     margin-left: 13%;
-     text-align: right;
-     color: #d69d66;
-     flex-wrap: wrap;
-     font-size: 36px;
- }
+.hero .suprise h2 a {
+  color: #d69d66;
+  text-decoration: none;
+}
 
- .info {
-     display: flex;
-     flex-wrap: wrap;
-     font-size: 14px;
-     padding: 20px 20px 20px 0px;
-     color: #d69d66;
- }
+/* Start of about me styling */
+.aboutMe {
+  background-color: #3d6d79;
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+}
 
- /* begin my work section */
- /* change the left title to have a smaller margin */
- /* change the work icons to have the same sized icon */
- .workSection {
-     background-color: #e0e2ee;
-     display: flex;
-     width: 100%;
-     
- }
+.header {
+  display: flex;
+  padding: 3.5%;
+  margin-left: 13%;
+  text-align: right;
+  color: #d69d66;
+  flex-wrap: wrap;
+  font-size: 36px;
+}
 
- .firstWork {
-    width: 97%;
-    background-image: url(./assets/images/WeatherTrailsScreenshot.png);
-    background-color: #3d6d79;
-    margin-top: 3%;
-    padding: 10%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
- }
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  padding: 20px 20px 20px 0px;
+  color: #d69d66;
+}
 
- .firstWork h2 {
-    color: #ffffff;
+/* begin my work section */
+/* change the left title to have a smaller margin */
+/* change the work icons to have the same sized icon */
+.workSection {
+  background-color: #e0e2ee;
+  display: flex;
+  width: 100%;
+}
 
- }
+.firstWork {
+  width: 97%;
+  background-image: url(./assets/images/WeatherTrailsScreenshot.png);
+  background-color: #3d6d79;
+  margin-top: 3%;
+  padding: 10%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.firstWork h2 {
+  color: #ffffff;
+}
 
 .emptyDiv {
-    background-color: #d69d66;
-    width: 30%;
- }  
- 
+  background-color: #d69d66;
+  width: 30%;
+}
 
 .work {
-     display: flex;
-     justify-content: space-between;
-     width: 70%;
-     flex-wrap: wrap;
-     background-color: #d69d66;
- }
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  flex-wrap: wrap;
+  background-color: #d69d66;
+}
 
- .persProj {
-     width: 40%;
-     display: flex;
-     margin-right: 3%;
-     flex-grow: 1;
-     padding-top: 5%;
-     margin-top: 3%;
-     padding-bottom:5%;
-     border-radius: 10px;
-     color: #3d6d79;
- }
+.persProj {
+  width: 40%;
+  display: flex;
+  margin-right: 3%;
+  flex-grow: 1;
+  padding-top: 5%;
+  margin-top: 3%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  color: #3d6d79;
+}
 
- .persProj a {
-     display: flex;
-     flex-grow: 1;
-     color: #ffffff;
-     text-decoration: none;
- }
+.persProj a {
+  display: flex;
+  flex-grow: 1;
+  color: #ffffff;
+  text-decoration: none;
+}
 
- /* beginning of runbudy styling */
- #memes {
-     background-image: url(./assets/images/newSnow.jpg);
-     background-color: #3d6d79;
- }
+/* beginning of runbudy styling */
+#proj-1 {
+  background-image: url(./assets/images/newSnow.jpg);
+  background-color: #3d6d79;
+}
 
- #memes h3 {
-     display: flex;
-     justify-content: flex-start;
-     align-content: flex-end;
-     
- }
+#proj-1 h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
 
- #memes h3 a {
-     display: flex;
-     color: #ffffff;
-     text-decoration: none;
- }
+#proj-1 h3 a {
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /* begin Resume styling */
 #resume {
-    background-image: url(./assets/images/Screenshot\ \(84\).png);
-    background-color: #3d6d79;
+  background-image: url(./assets/images/Screenshot\\(84\).png);
+  background-color: #3d6d79;
 }
 
 #resume h3 a {
-    color: #3d6d79; 
+  color: #3d6d79;
 }
 
 /* begin Loanpro styling */
-#loanpro {
-    background-image: url(./assets/images/loanProLogo.png);
-    background-color: #3d6d79;
+#proj-1 {
+  background-image: url(./assets/images/loanProLogo.png);
+  background-color: #3d6d79;
 }
 
-#loanpro h3 a {
-    color:#3d6d79;
+#proj-1 h3 a {
+  color: #3d6d79;
 }
 
 /* begin construction Styling */
 #construction {
-    background-color: #3d6d79;
-    color: #ffffff;
+  background-color: #3d6d79;
+  color: #ffffff;
 }
-
 
 /* begin footer styling */
 footer {
-    background-color: #e0e2ee;
-    display: flex;
-    justify-content: space-between;
+  background-color: #e0e2ee;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-me {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: right;
-    display: flex;
-    align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  align-items: center;
 }
 
-.footlist{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footlist ul li {
-    display: inline;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 20px;
-    margin-right: 40px;
-    color: #3d6d79;
+  display: inline;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 40px;
+  color: #3d6d79;
 }
 
 .footlist ul li a {
-    color: #3d6d79;
+  color: #3d6d79;
 }
