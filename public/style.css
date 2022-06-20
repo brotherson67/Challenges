@@ -67,7 +67,7 @@ header nav ul li a {
   align-content: flex-end;
 }
 
-.hero .suprise {
+.hero .to_linkdin {
   background-color: #3d6d79;
   font-size: large;
   font-weight: bold;
@@ -77,15 +77,15 @@ header nav ul li a {
   border-radius: 10px;
 }
 
-.hero .suprise:hover {
+.hero .to_linkdin:hover {
   background-color: #e0e2ee;
 }
 
-.hero .suprise h2 {
+.hero .to_linkdin h2 {
   padding: 15px 25px;
 }
 
-.hero .suprise h2 a {
+.hero .to_linkdin h2 a {
   color: #d69d66;
   text-decoration: none;
 }
@@ -116,9 +116,6 @@ header nav ul li a {
   color: #d69d66;
 }
 
-/* begin my work section */
-/* change the left title to have a smaller margin */
-/* change the work icons to have the same sized icon */
 .workSection {
   background-color: #e0e2ee;
   display: flex;
@@ -173,8 +170,7 @@ header nav ul li a {
   text-decoration: none;
 }
 
-/* beginning of runbudy styling */
-#proj-1 {
+beginning of runbudy styling #proj-1 {
   background-image: url(./assets/images/newSnow.jpg);
   background-color: #3d6d79;
 }
@@ -191,19 +187,19 @@ header nav ul li a {
   text-decoration: none;
 }
 
-/* begin Resume styling */
-#resume {
-  background-image: url(./assets/images/Screenshot\\(84\).png);
+/* begin MVC_Blog styling */
+#MVC_Blog {
+  /* background-image: url(./assets/images/Screenshot\\(84\).png); */
   background-color: #3d6d79;
 }
 
-#resume h3 a {
-  color: #3d6d79;
+#MVC_Blog h3 a {
+  color: #ffffff;
 }
 
 /* begin Loanpro styling */
-#proj-1 {
-  background-image: url(./assets/images/loanProLogo.png);
+#budget_tracker {
+  /* background-image: url(./assets/images/loanProLogo.png); */
   background-color: #3d6d79;
 }
 
@@ -212,7 +208,12 @@ header nav ul li a {
 }
 
 /* begin construction Styling */
-#construction {
+#note_taker {
+  background-color: #3d6d79;
+  color: #ffffff;
+}
+
+#employee_tracker {
   background-color: #3d6d79;
   color: #ffffff;
 }
