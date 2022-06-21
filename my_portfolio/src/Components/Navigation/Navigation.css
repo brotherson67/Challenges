@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  background-color: #d69d66;
+  justify-content: space-between;
+}
+
+header div {
+  background-color: #ffffff;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 10px 10px;
+  color: #3d6d79;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
+}
+
+header nav ul li {
+  display: inline;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  color: #3d6d79;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 25px;
+}

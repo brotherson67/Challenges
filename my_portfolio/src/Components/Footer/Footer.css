@@ -1,0 +1,32 @@
+#footer-parent {
+  background-color: #e0e2ee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-me {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.footList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footList ul li {
+  display: inline;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 40px;
+  color: #3d6d79;
+}
+
+.footList ul li a {
+  color: #3d6d79;
+}
