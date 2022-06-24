@@ -1,0 +1,24 @@
+.aboutMe {
+  background-color: #3d6d79;
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+.header {
+  display: flex;
+  padding: 3.5%;
+  margin-left: 13%;
+  text-align: right;
+  color: #d69d66;
+  flex-wrap: wrap;
+  font-size: 36px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  padding: 20px 20px 20px 0px;
+  color: #d69d66;
+}

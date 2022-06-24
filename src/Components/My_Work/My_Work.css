@@ -1,0 +1,99 @@
+.workSection {
+  background-color: #e0e2ee;
+  display: flex;
+  width: 100%;
+}
+
+.firstWork {
+  width: 97%;
+  background-image: url(../../../public/images/WeatherTrailsScreenshot.png);
+  background-color: #3d6d79;
+  margin-top: 3%;
+  padding: 10%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.firstWork h2 {
+  color: #ffffff;
+}
+
+.emptyDiv {
+  background-color: #d69d66;
+  width: 30%;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  flex-wrap: wrap;
+  background-color: #d69d66;
+}
+
+.persProj {
+  width: 40%;
+  display: flex;
+  margin-right: 3%;
+  flex-grow: 1;
+  padding-top: 5%;
+  margin-top: 3%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  color: #3d6d79;
+}
+
+.persProj a {
+  display: flex;
+  flex-grow: 1;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#proj-1 {
+  background-image: url(../../../public/images/WeatherTrailsScreenshot.png);
+  background-color: #3d6d79;
+}
+
+#proj-1 h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+#proj-1 h3 a {
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* begin MVC_Blog styling */
+#MVC_Blog {
+  background-color: #3d6d79;
+}
+
+#MVC_Blog h3 a {
+  color: #ffffff;
+}
+
+/* begin Loanpro styling */
+#budget_tracker {
+  background-color: #3d6d79;
+}
+
+#proj-1 h3 a {
+  color: #3d6d79;
+}
+
+/* begin construction Styling */
+#note_taker {
+  background-color: #3d6d79;
+  color: #ffffff;
+}
+
+#employee_tracker {
+  background-color: #3d6d79;
+  color: #ffffff;
+}

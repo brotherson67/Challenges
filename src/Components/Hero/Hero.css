@@ -1,0 +1,32 @@
+.hero {
+  background-image: url(../../../public/images/snappedPole.JPEG);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.hero .to_linkdin {
+  background-color: #3d6d79;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 30vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  border-radius: 10px;
+}
+
+.hero .to_linkdin:hover {
+  background-color: #e0e2ee;
+}
+
+.hero .to_linkdin h2 {
+  padding: 15px 25px;
+}
+
+.hero .to_linkdin h2 a {
+  color: #d69d66;
+  text-decoration: none;
+}
