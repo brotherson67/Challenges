@@ -21,6 +21,7 @@ function My_Work() {
               Budget-tracker
             </a>
           </h3>
+          <p>This is a simple application that I built using ReactJS. </p>
         </div>
 
         <div class="persProj" id="MVC_Blog">

@@ -67,7 +67,7 @@ header nav ul li a {
   align-content: flex-end;
 }
 
-.hero .to_linkdin {
+.hero .to_linkedin {
   background-color: #3d6d79;
   font-size: large;
   font-weight: bold;
@@ -77,15 +77,15 @@ header nav ul li a {
   border-radius: 10px;
 }
 
-.hero .to_linkdin:hover {
+.hero .to_linkedin:hover {
   background-color: #e0e2ee;
 }
 
-.hero .to_linkdin h2 {
+.hero .to_linkedin h2 {
   padding: 15px 25px;
 }
 
-.hero .to_linkdin h2 a {
+.hero .to_linkedin h2 a {
   color: #d69d66;
   text-decoration: none;
 }

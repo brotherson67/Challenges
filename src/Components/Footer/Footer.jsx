@@ -17,7 +17,7 @@ function Footer() {
             <a href="https://github.com/brotherson67">GitHub</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/mitch-brotherson/">Linkdin</a>
+            <a href="https://www.linkedin.com/in/mitch-brotherson/">Linkedin</a>
           </li>
         </ul>
       </div>
